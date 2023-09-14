@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <Container>
-        <nav className="flex items-center justify-between py-2 mb-8">
+        <nav className="flex items-center justify-between py-2 mb-4 shadow-sm pr-4">
           <Logo />
           {/* Menu For Medium Devices */}
           <div className="hidden md:flex">

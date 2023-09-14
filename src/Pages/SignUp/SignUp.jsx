@@ -66,7 +66,7 @@ const SignUp = () => {
         alt="orange girl driving scooty waving hand illustration"
       />
 
-      <div className="bg-white px-7 md:px-11 pt-14 pb-12 absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 shadow-3xl rounded-[40px] scale-[.85] md:scale-95 w-full md:w-auto mt-8">
+      <div className="bg-white px-7 md:px-11 pt-14 pb-12 absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 shadow-3xl rounded-[40px] scale-[.85] md:scale-95 w-full md:w-auto mt-32">
         <h2 className="text-xl">
           Welcome To <span>Task Fusion</span>
         </h2>

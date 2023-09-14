@@ -6,6 +6,7 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import toast from "react-hot-toast";
 import { PulseLoader } from "react-spinners";
+
 const SignIn = () => {
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("");
