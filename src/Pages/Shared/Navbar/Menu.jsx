@@ -30,7 +30,7 @@ const Menu = () => {
         <Link to="/signup">Sign Up</Link>
       )}
       {menu && user && (
-        <div className="absolute right-0 -bottom-14 bg-gray-100 px-4 py-3 rounded-lg">
+        <div className="absolute right-0 -bottom-14 bg-gray-100 px-4 py-3 rounded-lg z-50">
           <Link
             onClick={handleLogOut}
             className="flex w-full justify-end items-center gap-x-1"

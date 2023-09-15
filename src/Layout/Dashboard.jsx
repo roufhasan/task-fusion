@@ -26,7 +26,7 @@ const Dashboard = () => {
     <>
       <li>
         <NavLink
-          to="/dashboard/mangageUsers"
+          to="/dashboard/all-task"
           className={({ isActive }) =>
             `${
               isActive
@@ -40,7 +40,7 @@ const Dashboard = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/newtask"
+          to="/dashboard/addtask"
           className={({ isActive }) =>
             `${
               isActive

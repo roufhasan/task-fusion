@@ -13,6 +13,7 @@ const SignIn = () => {
   const { signIn, loading, setLoading, resetPassword, signInWithGoogle } =
     useContext(AuthContext);
   const navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
@@ -27,7 +28,7 @@ const SignIn = () => {
       .then((result) => {
         console.log(result.user);
         toast.success("Welcome To Task Fusion");
-        navigate("/");
+        navigate(from, { replace: true });
       })
       .catch((err) => {
         const message = err.message;
@@ -45,7 +46,7 @@ const SignIn = () => {
       .then(() => {
         toast.success("Login Successful");
         setLoading(false);
-        navigate("/");
+        navigate(from, { replace: true });
       })
       .catch((err) => {
         console.log(err.message);
